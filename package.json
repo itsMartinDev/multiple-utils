@@ -1,0 +1,21 @@
+{
+  "name": "multiple-utils",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "test": "npx playwright test"
+  },
+  "keywords": ["multiple", "methods", "validations", "library", "typescript"],
+  "author": "mptech",
+  "license": "ISC",
+  "description": "Small library that implements some methods to handle different types of values in Typescript.",
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  }
+}
