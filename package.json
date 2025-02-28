@@ -1,11 +1,15 @@
 {
   "name": "multiple-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --outDir dist",
     "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsMartinDev/multiple-utils"
   },
   "keywords": ["multiple", "methods", "validations", "library", "typescript"],
   "author": "mptech",
